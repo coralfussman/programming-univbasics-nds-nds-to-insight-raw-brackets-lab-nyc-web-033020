@@ -11,25 +11,25 @@ def directors_totals(nds)
 
 puts nds
 
-dir_index = 0
+directors_index = 0
  totals = {}
 
- while dir_index < nds.length do
-   dir_name = nds[dir_index][:name]
-   totals[dir_name] = 0
+ while directors_index < nds.length do
+   director_name = nds[directors_index][:name]
+   totals[director_name] = 0
    movie_index = 0
 
-   while movie_index < nds[dir_index][:movies].length do
-     totals[dir_name] += nds[dir_index][:movies][movie_index][:worldwide_gross]
+   while movie_index < nds[directors_index][:movies].length do
+     totals[director_name] += nds[directors_index][:movies][movie_index][:worldwide_gross]
      movie_index += 1
    end
 
-   dir_index += 1
+   directors_index += 1
  end
 
  totals
 
-  totals = {}
+  
   #
 
 
