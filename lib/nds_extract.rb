@@ -25,21 +25,8 @@ directors_index = 0
    end
 
    directors_index += 1
+ end
 
-
-
-  results = {}
-  #
-
-
-  # Use loops, variables and the accessing method, [], to loop through the NDS
-  # and total up all the
-  # ...
-  # ...
-  # ...
-  #
-  #
-  # Be sure to return the result at the end!
-
-  nil
+ 
+totals
 end
