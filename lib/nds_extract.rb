@@ -10,11 +10,12 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
 
 puts nds
-total = {}
+
+result = {}
 director_index = 0
 while director_index < source.size do
   director = source[director_index]
-  total[director[:name]] = gross_for_director(director)
+  result[director[:name]] = gross_for_director(director)
   director_index += 1
 end
 result
