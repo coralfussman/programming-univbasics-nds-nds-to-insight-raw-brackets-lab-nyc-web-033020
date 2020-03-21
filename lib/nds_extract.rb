@@ -27,9 +27,9 @@ directors_index = 0
    directors_index += 1
  end
 
- totals
+ totals << results
 
-  
+  results = {}
   #
 
 
