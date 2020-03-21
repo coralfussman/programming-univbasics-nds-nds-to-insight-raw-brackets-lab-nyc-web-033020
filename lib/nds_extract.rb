@@ -29,8 +29,7 @@ dir_index = 0
 
  totals
 
-  totals = {
-  }
+  totals = {}
   #
 
 
