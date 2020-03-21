@@ -19,7 +19,7 @@ while director_index < source.size do
   director_index += 1
 end
 result
-end
+
   result = {
 
   }
